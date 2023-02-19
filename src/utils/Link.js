@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../styles/utils.link.css';
 
 const Link = ({name, link}) => {
   return (
