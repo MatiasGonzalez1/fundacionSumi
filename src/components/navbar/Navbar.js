@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from '../../utils/Link';
-import '../../styles/comp.navbar.css'
+import '../../styles/comp.navbar.css';
 
 const Navbar = () => {
   return (
@@ -9,13 +9,13 @@ const Navbar = () => {
       <ul className='nav'>
      <Link 
      name='Nosotros'
-     link=''/>
+     link='/nosotros'/>
       <Link 
      name='Historia'
-     link=''/>
+     link='/historia'/>
       <Link 
      name='Contacto'
-     link=''/>
+     link='/contacto'/>
       </ul>
     </div>
   )
