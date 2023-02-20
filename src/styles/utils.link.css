@@ -4,4 +4,15 @@ li{
 
 a{
   text-decoration: none;
+  padding: 18px 5px;
+  border: none;
+  color: #fff;
+  text-transform:uppercase;
+  font-weight: bold;
+  transition: all .5s;
+}
+
+a:hover{
+  /* background-color: #7c36aa88; */
+  background-color: brown;
 }
