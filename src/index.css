@@ -1,0 +1,14 @@
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: "Poppins", sans-serif;
+  /* background-color: #1d4fd881; */
+  background: rgb(191,235,244);
+background: linear-gradient(0deg, rgba(191,235,244,1) 0%, rgba(107,107,207,1) 58%, rgba(12,3,91,0.9108018207282913) 100%);
+}
