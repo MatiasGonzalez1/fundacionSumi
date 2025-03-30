@@ -10,12 +10,12 @@ const navbarLinks = [
   {
     id: 2,
     title: "Nosotros",
-    Link: "#",
+    Link: "/about",
   },
   {
     id: 3,
     title: "Contacto",
-    Link: "#",
+    Link: "/contact",
   }
 ];
 
@@ -42,7 +42,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 bg-slate-100 w-full backdrop-blur-md z-50">
+    <nav className="fixed top-0 left-0 bg-slate-100 w-full backdrop-blur-md z-50 bg-opacity-30">
       <div className="flex justify-between items-center sm:px-12 sm:py-2 px-4 py-3 shadow-lg">
         {/* Logo */}
         <div className="">
