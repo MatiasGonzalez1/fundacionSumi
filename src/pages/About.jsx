@@ -45,7 +45,7 @@ const AboutUs = () => {
             Sobre <span className="text-blue-700">Nosotros</span>
           </h1>
           <p className="mt-4 text-lg text-gray-600">
-            En <strong>Sueños Misioneros</strong>, creemos en el poder del trabajo en equipo para 
+            En <strong>Sueños Misioneros</strong>, creemos en el poder del trabajo en equipo es necesario para 
             cambiar vidas. Desde nuestra fundación, hemos impactado a cientos de familias a 
             través de la cultura, la educación y la ayuda humanitaria.
           </p>
