@@ -3,7 +3,7 @@ import HeroImage from "../../assets/personas.webp"; // Asegúrate de tener esta 
 
 const Hero = () => {
   return (
-    <section className="relative py-20 bg-slate-100 min-h-screen flex items-center">
+    <section className="relative py-20 bg-gradient-to-r from-blue-50/20 to-purple-50/20 bg-slate-100 min-h-screen flex items-center">
       <div className="container mx-auto px-6 sm:px-12 flex flex-col md:flex-row items-center">
         {/* Texto */}
         <motion.div
@@ -16,7 +16,7 @@ const Hero = () => {
             ¡Bienvenidos! Somos <span className="text-blue-700">Sueños Misioneros</span>
           </h1>
           <h2 className="mt-3 text-xl sm:text-2xl text-gray-700 font-semibold">
-            Trabajamos por un mundo más solidario, justo y lleno de oportunidades.
+            Una fundación misionera que trabaja por un mundo más solidario, justo y lleno de oportunidades.
           </h2>
           <p className="mt-4 text-lg text-gray-600">
             Únete a nuestra misión: fomentar la cultura, apoyar a quienes más lo necesitan 
@@ -63,7 +63,7 @@ const Hero = () => {
           <img
             src={HeroImage}
             alt="Héroes comunitarios"
-            className="w-[300px] sm:w-[400px] drop-shadow-lg rounded-2xl"
+            className="w-[400px] sm:w-[500px] drop-shadow-lg rounded-2xl"
           />
         </motion.div>
       </div>
