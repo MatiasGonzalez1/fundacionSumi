@@ -1,4 +1,4 @@
-import Logo from "../../assets/new.png";
+import Logo from "../../assets/image.png";
 import { useState } from "react";
 
 const navbarLinks = [
