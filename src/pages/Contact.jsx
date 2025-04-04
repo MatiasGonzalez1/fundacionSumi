@@ -18,7 +18,7 @@ const Contact = () => {
   };
 
   const handleWhatsApp = () => {
-    const phoneNumber = "5493764624514";
+    const phoneNumber = "5493764606013";
     const message = encodeURIComponent(
       `Hola, soy ${formData.name}. ${formData.message}`
     );

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import HeroImage from "../../assets/personas.webp"; // Asegúrate de tener esta imagen en tu proyecto
+import HeroImage from "../../assets/Cataratas-del-lado-argentino.jpg"; // Asegúrate de tener esta imagen en tu proyecto
 
 const Hero = () => {
   return (
@@ -12,27 +12,36 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="md:w-1/2 text-center md:text-left"
         >
-          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-800 leading-tight">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-800 leading-tight">
             Bienvenidos a <span className="text-blue-700">Fundación Sueños Misioneros</span>
           </h1>
           <h2 className="mt-3 text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 font-semibold text-justify">
-          Somos una fundación dedicada a promover la cultura, acompañar a las comunidades y generar alianzas con proyectos estratégicos, que mejoran la calidad de vida, fortaleciendo el desarrollo social de forma sostenible y colaborativa.          </h2>
+         Nos dedicamos a promover la cultura, acompañar a las comunidades y generar alianzas con proyectos estratégicos</h2>
           <p className="mt-4 text-xs sm:text-sm md:text-base text-gray-600">
-            Únete a nuestra misión: fomentar la cultura, apoyar a quienes más lo necesitan
-            y construir un futuro basado en valores y colaboración.
+            {/* Únete a nuestra misión: fomentar la cultura, apoyar a quienes más lo necesitan */}
+            {/* y construir un futuro basado en valores y colaboración. */}
+            Misión: articular recursos, conocimientos y capacidades para el desarrollo de programas sociales que respondan a las necesidades reales de las comunidades y su entorno.
           </p>
 
           {/* Lista de impacto */}
           <ul className="mt-6 space-y-2 text-gray-700">
             <li className="flex items-center">
-              ✅ <span className="ml-2 text-xs sm:text-sm">Impulsamos el arte y la educación en comunidades vulnerables.</span>
+              ✅ <span className="ml-2 text-xs sm:text-sm">Redes de trabajo: Cooperaciones con diversos sectores.</span>
             </li>
             <li className="flex items-center">
-              ✅ <span className="ml-2 text-xs sm:text-sm">Brindamos apoyo a familias en situación de riesgo.</span>
+              ✅ <span className="ml-2 text-xs sm:text-sm">Innovación Social: Soluciones creativas y adaptadas a las diversas realidades.</span>
+            </li>
+            
+            <li className="flex items-center">
+              ✅ <span className="ml-2 text-xs sm:text-sm">Transparencia: Gestion de recursos y procesos de forma ética y abierta.
+              </span>
+              
             </li>
             <li className="flex items-center">
-              ✅ <span className="ml-2 text-xs sm:text-sm">Creamos redes de colaboración para el bienestar social.</span>
-            </li>
+              ✅ <span className="ml-2 text-xs sm:text-sm">Facilitamos procesos: Vinculos estratégicos para fortalecer el desarrollo individual y colectivo.</span>
+            </li>           
+
+
           </ul>
         </motion.div>
 
@@ -46,7 +55,7 @@ const Hero = () => {
           <img
             src={HeroImage}
             alt="Héroes comunitarios"
-            className="w-[80vw] sm:w-[60vw] md:w-[40vw] lg:w-[35vw] drop-shadow-lg rounded-2xl max-w-[600px]"
+            className="w-[40vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] drop-shadow-lg rounded-2xl max-w-[600px]"
           />
         </motion.div>
       </div>
