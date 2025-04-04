@@ -16,7 +16,13 @@ const navbarLinks = [
     id: 3,
     title: "Contacto",
     Link: "/contact",
-  }
+  },
+  {
+    id: 4,
+    title: "Galeria",
+    Link: "/gallery",
+  },
+
 ];
 
 const navbarRedes = [
