@@ -32,7 +32,7 @@ const Gallery = () => {
         <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">Nuestra Galería</h2>
 
         {/* Grid de imágenes */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-center">
           {images.map((image, index) => (
             <motion.div
               key={index}

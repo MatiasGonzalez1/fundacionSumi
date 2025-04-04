@@ -16,7 +16,7 @@ const Hero = () => {
             Bienvenidos a <span className="text-blue-700">Sueños Misioneros</span>
           </h1>
           <h2 className="mt-3 text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 font-semibold">
-          Somos una fundación que promueve la cultura y brinda apoyo a comunidades vulnerables, trabajando para mejorar la calidad de vida de las personas y fortalecer el desarrollo social.          </h2>
+          Somos una fundación dedicada a promover la cultura, acompañar a las comunidades y generar alianzas con proyectos estratégicos, que mejoran la calidad de vida, fortaleciendo el desarrollo social de forma sostenible y colaborativa.          </h2>
           <p className="mt-4 text-xs sm:text-sm md:text-base text-gray-600">
             Únete a nuestra misión: fomentar la cultura, apoyar a quienes más lo necesitan
             y construir un futuro basado en valores y colaboración.
