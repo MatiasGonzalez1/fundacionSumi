@@ -12,10 +12,10 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="md:w-1/2 text-center md:text-left"
         >
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-800 leading-tight">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-800 leading-tight text-center">
             Bienvenidos a <span className="text-blue-700">Fundación Sueños Misioneros</span>
           </h1>
-          <h2 className="mt-3 text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 font-semibold text-justify">
+          <h2 className="mt-4 text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 font-semibold text-center">
          Nos dedicamos a promover la cultura, acompañar a las comunidades y generar alianzas con proyectos estratégicos</h2>
           <p className="mt-4 text-xs sm:text-sm md:text-base text-gray-600">
             Misión: articular recursos, conocimientos y capacidades para el desarrollo de programas sociales que respondan a las necesidades reales de las comunidades y su entorno.
@@ -24,19 +24,19 @@ const Hero = () => {
           {/* Lista de impacto */}
           <ul className="mt-6 space-y-2 text-gray-700">
             <li className="flex items-center">
-              ✅ <span className="ml-2 text-xs sm:text-sm">Redes de trabajo: Cooperaciones con diversos sectores.</span>
+              ✅ <span className="ml-2 text-sm sm:text-base">Redes de trabajo: Cooperaciones con diversos sectores.</span>
             </li>
             <li className="flex items-center">
-              ✅ <span className="ml-2 text-xs sm:text-sm">Innovación Social: Soluciones creativas y adaptadas a las diversas realidades.</span>
+              ✅ <span className="ml-2 text-sm sm:text-base">Innovación Social: Soluciones creativas y adaptadas a las diversas realidades.</span>
             </li>
             
             <li className="flex items-center">
-              ✅ <span className="ml-2 text-xs sm:text-sm">Transparencia: Gestion de recursos y procesos de forma ética y abierta.
+              ✅ <span className="ml-2 text-sm sm:text-base">Transparencia: Gestion de recursos y procesos de forma ética y abierta.
               </span>
               
             </li>
             <li className="flex items-center">
-              ✅ <span className="ml-2 text-xs sm:text-sm">Facilitamos procesos: Vinculos estratégicos para fortalecer el desarrollo individual y colectivo.</span>
+              ✅ <span className="ml-2 text-sm sm:text-base">Facilitamos procesos: Vinculos estratégicos para fortalecer el desarrollo individual y colectivo.</span>
             </li>           
           </ul>
 
