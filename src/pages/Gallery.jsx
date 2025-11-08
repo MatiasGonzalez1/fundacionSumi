@@ -3,18 +3,19 @@ import { motion } from "framer-motion";
 
 // Importa tus imágenes (asegúrate de tenerlas en la carpeta adecuada)
 import img1 from "../assets/Galeria/img1.jpg";
-import img2 from "../assets/Galeria/img2.jpg";
+// import img2 from "../assets/Galeria/img2.jpg";
 import img3 from "../assets/Galeria/img3.jpg";
 import img4 from "../assets/Galeria/img4.jpg";
 import img5 from "../assets/Galeria/img5.jpg";
 import img6 from "../assets/Galeria/img6.png";
 import img7 from "../assets/Galeria/img7.jpeg";
 import img8 from "../assets/Galeria/img8.jpeg";
+import img9 from "../assets/Galeria/img9.jpg";
 
 // Lista de imágenes con descripciones
 const images = [
   { src: img1, alt: "Evento cultural en la comunidad", text: "Actividad artística promoviendo la cultura local." },
-  { src: img2, alt: "Pareja de danzas", text: "Muestra anual CIAD." },
+  { src: img9, alt: "Día del niño", text: "Regalos día del Niño Barrio Yohasa." },
   { src: img3, alt: "Festival de la hermandad", text: "Festival de la Hermandad." },
   { src: img4, alt: "Jornada solidaria", text: "Jornada Solidaria 'Festival de la Hermandad'." },
   { src: img5, alt: "Taller educativo", text: "Capacitación en oficios para jóvenes de la comunidad." },

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Team1 from "../assets/personas.webp"; // Agrega imágenes reales de tu equipo
-import Team2 from "../assets/personas.webp";
-import Team3 from "../assets/personas.webp";
+import Team2 from "../assets/Gaston.png";
+import Team3 from "../assets/Rodrigo.png";
 import Team4 from "../assets/personas.webp";
 
 
