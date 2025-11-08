@@ -2,25 +2,25 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 // Importa tus imágenes (asegúrate de tenerlas en la carpeta adecuada)
-import img1 from "../assets/personas.webp";
-import img2 from "../assets/personas.webp";
-import img3 from "../assets/personas.webp";
-import img4 from "../assets/personas.webp";
-import img5 from "../assets/personas.webp";
-import img6 from "../assets/personas.webp";
-import img7 from "../assets/personas.webp";
-import img8 from "../assets/personas.webp";
+import img1 from "../assets/Galeria/img1.jpg";
+import img2 from "../assets/Galeria/img2.jpg";
+import img3 from "../assets/Galeria/img3.jpg";
+import img4 from "../assets/Galeria/img4.jpg";
+import img5 from "../assets/Galeria/img5.jpg";
+import img6 from "../assets/Galeria/img6.png";
+import img7 from "../assets/Galeria/img7.jpeg";
+import img8 from "../assets/Galeria/img8.jpeg";
 
 // Lista de imágenes con descripciones
 const images = [
   { src: img1, alt: "Evento cultural en la comunidad", text: "Actividad artística promoviendo la cultura local." },
-  { src: img2, alt: "Entrega de donaciones", text: "Distribución de alimentos y ropa a familias necesitadas." },
-  { src: img3, alt: "Taller educativo", text: "Capacitación en oficios para jóvenes de la comunidad." },
-  { src: img4, alt: "Jornada solidaria", text: "Voluntarios trabajando en la mejora de espacios comunitarios." },
+  { src: img2, alt: "Pareja de danzas", text: "Muestra anual CIAD." },
+  { src: img3, alt: "Festival de la hermandad", text: "Festival de la Hermandad." },
+  { src: img4, alt: "Jornada solidaria", text: "Jornada Solidaria 'Festival de la Hermandad'." },
   { src: img5, alt: "Taller educativo", text: "Capacitación en oficios para jóvenes de la comunidad." },
-  { src: img6, alt: "Jornada solidaria", text: "Voluntarios trabajando en la mejora de espacios comunitarios." },
-  { src: img7, alt: "Taller educativo", text: "Capacitación en oficios para jóvenes de la comunidad." },
-  { src: img8, alt: "Jornada solidaria", text: "Voluntarios trabajando en la mejora de espacios comunitarios." },
+  { src: img6, alt: "Foto Torino FC", text: "Sponsor oficial del Club deportivo TORINO FC." },
+  { src: img7, alt: "Taller educativo", text: "Taller de Danzas Folklóricas de la localidad de Candelaria." },
+  { src: img8, alt: "Desfile", text: "Desfile 'Día de la Bandera'." },
 ];
 
 const Gallery = () => {
