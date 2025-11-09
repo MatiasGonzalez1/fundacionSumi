@@ -14,7 +14,7 @@ const Contact = () => {
 
   const handleEmail = () => {
     const { name, email, message } = formData;
-    window.location.href = `mailto:mng_epson@hotmail.com?subject=Contacto de ${name}&body=${message}%0A%0AResponder a: ${email}`;
+    window.location.href = `mailto:folkloremario@gmail.com?subject=Contacto de ${name}&body=${message}%0A%0AResponder a: ${email}`;
   };
 
   const handleWhatsApp = () => {

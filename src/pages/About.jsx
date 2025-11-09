@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import Team1 from "../assets/personas.webp"; // Agrega imágenes reales de tu equipo
+import Team1 from "../assets/presidente.png"; // Agrega imágenes reales de tu equipo
 import Team2 from "../assets/Gaston.png";
 import Team3 from "../assets/Rodrigo.png";
-import Team4 from "../assets/personas.webp";
+import Team4 from "../assets/fran.jpeg";
 
 
 const teamMembers = [
@@ -16,7 +16,7 @@ const teamMembers = [
   },
   {
     id: 2,
-    name: "Gastón",
+    name: "Cardozo Gastón",
     role: "Vicepresidente / Coord. de Voluntarios",
     image: Team2,
     description:
@@ -24,7 +24,7 @@ const teamMembers = [
   },
   {
     id: 3,
-    name: "Rodrigo",
+    name: "Cardozo Rodrigo",
     role: "Tesorero / Resp. de actividades deportivas",
     image: Team3,
     description:
@@ -32,7 +32,7 @@ const teamMembers = [
   },
   {
     id: 4,
-    name: "Francisco",
+    name: "Cardozo Francisco",
     role: "Secretario",
     image: Team4,
     description:
@@ -139,7 +139,7 @@ const AboutUs = () => {
                 <img
                   src={member.image}
                   alt={`Foto de ${member.name}`}
-                  className="w-24 sm:w-32 h-24 mx-auto rounded-full object-cover shadow-md"
+                  className="w-24 sm:w-32 h-24 mx-auto rounded-full object-cover object-top shadow-md"
                 />
                 <h3 className="mt-4 text-lg sm:text-xl font-semibold text-gray-800">
                   {member.name}

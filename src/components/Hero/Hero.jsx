@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import HeroImage from "../../assets/Cataratas-del-lado-argentino.jpg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -46,12 +46,14 @@ const Hero = () => {
   transition={{ duration: 0.8, delay: 0.4 }} // Un pequeño delay para que aparezca después del texto
   className="mt-8 text-center md:text-left" // 'mt-8' para darle espacio
 >
-  <Link
-    to="/contact"
+  <a
+    href="https://forms.cloud.microsoft/r/yNKdJjMBYG"
+    target="_blank"
+    rel="noopener noreferrer"
     className="inline-block px-6 py-3 text-base font-semibold text-white bg-blue-700 rounded-lg shadow-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-colors duration-300"
   >
     ¡Quiero ser voluntario!
-  </Link>
+  </a>
 </motion.div>
         </motion.div>
 
