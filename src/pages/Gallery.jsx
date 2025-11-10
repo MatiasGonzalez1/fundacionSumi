@@ -11,6 +11,18 @@ import img6 from "../assets/Galeria/img6.png";
 import img7 from "../assets/Galeria/img7.jpeg";
 import img8 from "../assets/Galeria/img8.jpeg";
 import img9 from "../assets/Galeria/img9.jpg";
+import img10 from "../assets/Galeria/10.jpeg";
+import img11 from "../assets/Galeria/11.jpeg";
+import img12 from "../assets/Galeria/12.jpeg";
+import img13 from "../assets/Galeria/13.jpeg";
+import img14 from "../assets/Galeria/14.jpeg";
+import img15 from "../assets/Galeria/15.jpeg";
+
+import img17 from "../assets/Galeria/17.jpeg";
+import img18 from "../assets/Galeria/18.jpeg";
+import img19 from "../assets/Galeria/19.jpeg";
+import img20 from "../assets/Galeria/20.jpeg";
+
 
 // Lista de imágenes con descripciones
 const images = [
@@ -22,6 +34,18 @@ const images = [
   { src: img6, alt: "Foto Torino FC", text: "Sponsor oficial del Club deportivo TORINO FC." },
   { src: img7, alt: "Taller educativo", text: "Taller de Danzas Folklóricas de la localidad de Candelaria." },
   { src: img8, alt: "Desfile", text: "Desfile 'Día de la Bandera'." },
+    { src: img10, alt: "Pose", text: "Taller de Folklore Juvenil." },
+    { src: img11, alt: "Pose", text: "Ensayos en la plazoleta." },
+    { src: img12, alt: "Desfile", text: "Desfile 'Día de la Bandera'." },
+    { src: img13, alt: "Desfile", text: "Desfile 'Día de la Bandera'." },
+    { src: img14, alt: "Pose", text: "Desfile 'Día de la Bandera'" },
+    { src: img15, alt: "Desfile", text: "Desfile 'Día de la Bandera'." },
+        { src: img17, alt: "Pose", text: "Spot publicitario." },
+    { src: img18, alt: "Desfile", text: "Ensayo previo 'Encuentro de danzas'." },
+    { src: img19, alt: "Pose", text: "Taller de Folklore Infantil." },
+        { src: img20, alt: "Escenario", text: "Encuentro interprovincial de danzas folklóricas" }
+
+
 ];
 
 const Gallery = () => {
