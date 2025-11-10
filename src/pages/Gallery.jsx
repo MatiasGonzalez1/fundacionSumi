@@ -24,6 +24,16 @@ import img19 from "../assets/Galeria/19.jpeg";
 import img20 from "../assets/Galeria/20.jpeg";
 import img21 from "../assets/Galeria/21.jpeg";
 import img22 from "../assets/Galeria/22.jpeg";
+import img23 from "../assets/Galeria/2.jpg";
+import img24 from "../assets/Galeria/23.jpg";
+import img25 from "../assets/Galeria/24.jpg";
+import img26 from "../assets/Galeria/25.png";
+import img27 from "../assets/Galeria/26.jpg";
+import img28 from "../assets/Galeria/27.jpg";
+import img29 from "../assets/Galeria/28.jpg";
+import img30 from "../assets/Galeria/30.jpeg";
+import img31 from "../assets/Galeria/31.jpeg";
+
 
 
 
@@ -49,6 +59,15 @@ const images = [
     { src: img20, alt: "Escenario", text: "Encuentro interprovincial de danzas folklóricas" },
     { src: img21, alt: "Escenario", text: "Acompañamiento 'Urban Day'" },
       { src: img22, alt: "Colectivo", text: "Nuestro transporte" },
+  { src: img23, alt: "Remembranzas", text: "Festival de la Hermandad." },
+    { src: img24, alt: "Desfile", text: "Festival de la Hermandad." },
+    { src: img25, alt: "Pose", text: "Festival de la Hermandad." },
+    { src: img26, alt: "Remembranzas", text: "Festival de la Hermandad." },
+    { src: img27, alt: "Escenario", text: "Presentación" },
+      { src: img28, alt: "Escenario", text: "Festival de la Hermandad." },
+    { src: img29, alt: "Escenario", text: "Festival de la Hermandad." },
+{ src: img30, alt: "Escenario", text: "Esda." },
+{ src: img31, alt: "Cumpleaños", text: "Cumpleaños de alumna 'Escuela superior'" },
 
 
 ];
