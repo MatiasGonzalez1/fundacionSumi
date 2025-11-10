@@ -33,6 +33,7 @@ import img28 from "../assets/Galeria/27.jpg";
 import img29 from "../assets/Galeria/28.jpg";
 import img30 from "../assets/Galeria/30.jpeg";
 import img31 from "../assets/Galeria/31.jpeg";
+import img32 from "../assets/Galeria/32.jpeg";
 
 
 
@@ -68,6 +69,8 @@ const images = [
     { src: img29, alt: "Escenario", text: "Festival de la Hermandad." },
 { src: img30, alt: "Escenario", text: "Esda." },
 { src: img31, alt: "Cumpleaños", text: "Cumpleaños de alumna 'Escuela superior'" },
+{ src: img32, alt: "Futsal", text: "Acompañando al deporte misionero" },
+
 
 
 ];
