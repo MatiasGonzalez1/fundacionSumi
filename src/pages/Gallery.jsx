@@ -22,6 +22,9 @@ import img17 from "../assets/Galeria/17.jpeg";
 import img18 from "../assets/Galeria/18.jpeg";
 import img19 from "../assets/Galeria/19.jpeg";
 import img20 from "../assets/Galeria/20.jpeg";
+import img21 from "../assets/Galeria/21.jpeg";
+import img22 from "../assets/Galeria/22.jpeg";
+
 
 
 // Lista de imágenes con descripciones
@@ -40,10 +43,12 @@ const images = [
     { src: img13, alt: "Desfile", text: "Desfile 'Día de la Bandera'." },
     { src: img14, alt: "Pose", text: "Desfile 'Día de la Bandera'" },
     { src: img15, alt: "Desfile", text: "Desfile 'Día de la Bandera'." },
-        { src: img17, alt: "Pose", text: "Spot publicitario." },
+    { src: img17, alt: "Pose", text: "Spot publicitario." },
     { src: img18, alt: "Desfile", text: "Ensayo previo 'Encuentro de danzas'." },
     { src: img19, alt: "Pose", text: "Taller de Folklore Infantil." },
-        { src: img20, alt: "Escenario", text: "Encuentro interprovincial de danzas folklóricas" }
+    { src: img20, alt: "Escenario", text: "Encuentro interprovincial de danzas folklóricas" },
+    { src: img21, alt: "Escenario", text: "Acompañamiento 'Urban Day'" },
+      { src: img22, alt: "Colectivo", text: "Nuestro transporte" },
 
 
 ];
