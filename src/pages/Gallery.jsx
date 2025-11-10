@@ -34,6 +34,12 @@ import img29 from "../assets/Galeria/28.jpg";
 import img30 from "../assets/Galeria/30.jpeg";
 import img31 from "../assets/Galeria/31.jpeg";
 import img32 from "../assets/Galeria/32.jpeg";
+import img33 from "../assets/Galeria/33.jpeg";
+import img34 from "../assets/Galeria/34.jpeg";
+import img35 from "../assets/Galeria/35.jpeg";
+import img36 from "../assets/Galeria/36.jpeg";
+import img37 from "../assets/Galeria/37.jpeg";
+
 
 
 
@@ -70,6 +76,12 @@ const images = [
 { src: img30, alt: "Escenario", text: "Esda." },
 { src: img31, alt: "Cumpleaños", text: "Cumpleaños de alumna 'Escuela superior'" },
 { src: img32, alt: "Futsal", text: "Acompañando al deporte misionero" },
+{ src: img33, alt: "Futsal", text: "Deportistas de 'TORINO Futsal auspiciados por la fundación" },
+{ src: img34, alt: "Merienda", text: "Acompañando la merienda" },
+{ src: img35, alt: "Foto de grupo", text: "Expo universitaria Posadas" },
+{ src: img36, alt: "Viaje de intercambio", text: "Intercambio cultural aldea ka'ague poty Aristóbulo del Valle" },
+{ src: img37, alt: "Foto de grupo", text: "Venta de pollos para la compra de camisetas deportivas para el equipo de Futsal" },
+
 
 
 
