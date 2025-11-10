@@ -39,6 +39,7 @@ import img34 from "../assets/Galeria/34.jpeg";
 import img35 from "../assets/Galeria/35.jpeg";
 import img36 from "../assets/Galeria/36.jpeg";
 import img37 from "../assets/Galeria/37.jpeg";
+import img38 from "../assets/Galeria/38.jpeg";
 
 
 
@@ -81,6 +82,7 @@ const images = [
 { src: img35, alt: "Foto de grupo", text: "Expo universitaria Posadas" },
 { src: img36, alt: "Viaje de intercambio", text: "Intercambio cultural aldea ka'ague poty Aristóbulo del Valle" },
 { src: img37, alt: "Foto de grupo", text: "Venta de pollos para la compra de camisetas deportivas para el equipo de Futsal" },
+{ src: img38, alt: "Foto de grupo", text: "Recibiendo la copa de la liga TORINO FUTSAL" },
 
 
 
