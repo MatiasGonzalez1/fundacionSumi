@@ -4,7 +4,7 @@ import { useForm, ValidationError } from "@formspree/react"; // 1. Importaciones
 const Contact = () => {
   // 2. Hook de Formspree: Reemplaza a useState
   //    (Reemplaza "TU_ID_DE_FORMSPREE" con tu ID)
-  const [state, handleSubmit] = useForm("mqawkzzk");
+const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_ID);
 
   // 3. Función de WhatsApp (Modificada)
   //    Como ya no usamos "useState" para los campos,
